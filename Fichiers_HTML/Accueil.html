@@ -1,19 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-     <title>Title2</title>
+    <title>Titre</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
+
 <body>
-<div class="hero">
-    
-</div>
-<p>Ceci est notre premier paragraphe</p>
-<p>Ceci le paragraphe flavio 2 </p>
-<p>paragraphe 2 </p>
 
-<p>Paragraphe de mise à jour</p>
+    <section class="hero">
+        <nav>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">À propos de nous</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="/pictures/Menu.svg" alt="Icône" width="25" height="25">
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
+        <div class="hero-text-img">
+            <div>
+                <h1>Perdez-vous dans un monde de histoires. Magasinez notre sélection de livres.</h1>
+                <p>Embarquez pour un voyage à travers les royaumes de l'imagination. Bienvenue dans notre bazar de
+                    livres, où chaque page détient une nouvelle aventure.</p>
+                <button id="btn-orange" type="button" class="btn btn-light">Achetez</button>
+                <button id="btn-black" type="button" class="btn btn-light">
+                    En savoir plus
+                    <img src="/pictures/Arrow.svg" width="25" height="25">
+                </button> 
+            </div>
+            <img id="lunar-img" src="/pictures/lunar.png" />
+            <img id="oldMan-img" src="/pictures/theOldMan.png" />
+            <img id="alone-img" src="/pictures/alone.png" />
+            <img id="sugar-img" src="/pictures/sugar.png" />
+            <img id="soul-img" src="/pictures/soul.png" />
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo">
+        </script>
 </body>
+
 </html>
